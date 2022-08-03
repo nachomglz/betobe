@@ -1,0 +1,93 @@
+.player-container .player-container__goback {
+   position: absolute;
+   cursor: pointer;
+   font-size: 2rem;
+   width: auto;
+}
+.player-container * {
+   margin: 0;
+}
+.player-container h3 {
+   position: relative;
+   width: auto;
+   margin-bottom: .5rem;
+}
+.player-container h3::before {
+   content: '';
+   width: 100%;
+   height: 3px;
+   position: absolute;
+   background-color: #E54A1E;
+   bottom: 2px;
+}
+.player-container {
+   background-color: #fff;
+   padding: 4rem;
+   border-radius: 15px;
+   display: flex;   
+   gap: 3rem;   
+   position: relative;
+}
+.player-container > div {
+   width: 100%;
+}
+.player-container .player-container__left img {
+   height: 35rem;
+   width: 35rem;
+   border-radius: 100%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.player-container .player-container__left {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 2.5rem;
+}
+.player-container .player-container__left .player-container__left-info {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.player-container .player-container__left .player-container__left-info p {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.player-container .player-container__left .player-container__left-info-email p {
+   justify-content: center;
+}
+.player-container .player-container__left .player-container__left-info-name {
+   font-size: 2.4rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.player-container .player-container__left .player-container__left-info-extra {
+   display: flex;
+   justify-content: space-around;
+}
+.player-container .player-container__left .player-container__left-info-extra > div {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.player-container .player-container__left .player-container__left-info-extra > div:nth-child(2) {
+   align-items: flex-end;
+}
+.player-container .player-container__left .player-container__left-info-extra > div:nth-child(2) > p {
+   display: flex;
+   align-items: center;
+   flex-direction: row-reverse;
+}
+
+/*RIGHT CONTAINER*/
+.player-container .player-container__right-info {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   padding-top: 1rem;
+}
+.player-container .player-container__right-info svg {
+   margin-right: 1rem;
+}

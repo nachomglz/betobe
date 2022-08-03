@@ -1,0 +1,69 @@
+.filter-menu {
+   position: absolute;
+   top: 10rem;
+   right: 10rem;
+   max-width: 90%;
+   background-color: #87939E;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding: 4rem 3rem;
+   border-radius: 30px;
+   z-index: 3;
+}
+
+.filter-menu-field {
+   display: flex;
+   margin-top: 1rem;
+   width: 100%;
+   flex-direction: column;
+}
+.filter-menu-field input,
+.filter-menu-field select {
+   width: 100%;
+}
+
+.double-field {
+   flex-direction: row;
+   gap: 1rem;
+   width: 100%;
+}
+.filter-menu-field input {
+   width: 100%;
+}
+
+.checkbox-field {
+   flex-direction: row;
+   align-items: center;
+   gap: .5rem;
+}
+
+.closing-button{
+   position: absolute;
+   top: 2rem;
+   right: 3rem;
+   height: 3rem;
+   width: 3rem;
+   cursor: pointer;
+   background-color: #87939E;
+   border: none;
+} 
+.closing-button span {
+   position: absolute;
+   background-color: black;
+   top: 12px;
+   left: 2px;
+   height: .4rem;
+   width: 85%;
+   border-radius: 30%;
+}
+
+.closing-button span:nth-child(1) {
+   transform: rotate(45deg);
+}
+.closing-button span:nth-child(2) {
+   transform: rotate(-45deg);
+}
+
+
+
+
+

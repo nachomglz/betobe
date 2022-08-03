@@ -1,0 +1,36 @@
+.players-container p {
+   margin: 0;
+   font-size: 1.8rem;
+}
+.players-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   justify-content: center;
+}
+.show-availability-container {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.filter-trigger-button {
+   background: none;
+   border: none;
+   font-size: 2rem;
+   color: #555;
+   cursor: pointer;
+}
+.players-top-section {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+   padding: 0 2rem;
+}
+.filter-availability-container {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.player__caracteristics {
+   text-transform: capitalize;
+}

@@ -1,0 +1,188 @@
+.register-container h2,
+.register-container h3,
+.register-container p {
+   margin: 0;
+   padding: 0;
+}
+
+.register-container {
+   background-color: #fff;
+   margin: 0 auto;
+   padding: 2rem 6rem;
+   max-width: 90rem;
+}
+
+.register-container .register-form {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.register-form__field {
+   display: flex;
+   justify-content: space-between;
+   gap: 2rem;
+}
+
+.register-form__field:nth-child(7),
+.register-form__field:nth-child(8),
+.register-form__field:nth-child(9) {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 2rem;
+}
+
+.register-form__container-trigger {
+   display: flex;
+   flex-direction: row !important;
+   justify-content: flex-start !important;
+   align-items: center;
+   font-weight: bold;
+   cursor: pointer;
+   gap: 1rem;
+}
+
+.register-form__container-trigger svg {
+   color: #e54a1e;
+}
+
+.register-form__field>div,
+.register-form__field>div>div,
+.register-form__field>div>div>div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+}
+
+.register-form__field>div label {
+   font-weight: bold;
+   font-size: 1.4rem;
+   margin-left: .2rem;
+}
+
+.register-form__field-image label {
+   background-color: #ececec;
+   border: none;
+   font-size: 1.6rem;
+   border-radius: 1.7rem;
+   padding: 1.2rem 1.8rem;
+}
+
+.register-button-field .btn {
+   width: 100%;
+}
+
+.register-form__field-agency {
+   background-color: #bfbfbf;
+   border-radius: 2rem;
+   overflow: hidden;
+   transition: all .3s ease-in-out;
+   max-height: 0;
+}
+
+.register-form__field-agency.open {
+   max-height: 40rem;
+   padding: 2rem;
+}
+
+.register-form__field-videos {
+   background-color: #bfbfbf;
+   border-radius: 2rem;
+   overflow: hidden;
+   transition: all .3s ease-in-out;
+   max-height: 0;
+}
+
+.register-form__field-videos-video {
+   display: flex;
+   flex-direction: row !important;
+   gap: 3rem;
+   margin-top: .5rem;
+   align-items: flex-end;
+}
+
+.register-form__field-videos.open {
+   max-height: 140rem;
+   padding: 2rem;
+}
+
+.register-form__field-passports {
+   background-color: #bfbfbf;
+   border-radius: 2rem;
+   overflow: hidden;
+   transition: all .3s ease-in-out;
+   max-height: 0;
+}
+
+.register-form__field-passports.open {
+   max-height: 40rem;
+   padding: 2rem;
+}
+
+.register-form__field-passport-add-btn {
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-bottom: .4rem;
+   width: 4rem;
+   height: 4rem;
+   padding: .8rem 1rem;
+}
+.register-form__field-video-add-btn {
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-bottom: .4rem;
+   width: 4rem;
+   height: 4rem;
+   padding: .8rem 1rem;
+}
+
+.register-form__field-videos-video-item {
+   display: flex !important;
+   flex-direction: row !important;
+   margin-top: 1rem;
+
+}
+
+.register-form__field-videos-video-item:not(.register-form__field-videos-video-item:last-child),
+ .register-form__field-passports-passport-item:not(.register-form__field-passports-passport-item:last-child){
+   border-bottom: 1px solid black;
+}
+.register-form__field-videos-video-item,
+.register-form__field-passports-passport-item {
+   padding: .5rem;
+}
+.register-form__field-passports-passport-item {
+   display: flex;
+   flex-direction: row !important;  
+
+}
+
+.register-form__field-passport>div {
+   display: flex;
+   flex-direction: row !important;
+align-items: center;
+   gap: 1rem;
+}
+
+.register-form__field-passport>div>input {
+   width: 100%;
+}
+.register-image-placeholder {
+   height: 8rem;
+   width: 8rem;
+   border: 1px solid black;
+}
+.register-form__field-image {
+   display: flex;
+   flex-direction: row !important;
+   gap: 1rem;
+}
+.register-form__field-image label {
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
